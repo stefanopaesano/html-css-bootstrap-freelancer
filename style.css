@@ -4,7 +4,34 @@
     box-sizing: border-box;
 }
 
-.navbar.bg-success.custom-border {
-     
-    border: 2px solid black; /* Aggiungi il bordo solido con il tuo colore verde scuro */
+.custom-green-background {
+    background-color: #00ff00; /* Colore verde personalizzato */
+}
+
+div{
+    border: 1px solid black;
+   
+}
+.my-custom-row {
+    margin-top: 0 !important;
+  }
+
+
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+h3, p {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
 }
