@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar.bg-success.custom-border {
+     
+    border: 2px solid black; /* Aggiungi il bordo solido con il tuo colore verde scuro */
+}
