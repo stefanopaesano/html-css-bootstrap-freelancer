@@ -5,18 +5,19 @@
 }
 
 .custom-green-background {
-    background-color: #00ff00; /* Colore verde personalizzato */
+    background-color: #00ff00; 
 }
 
 div{
     border: 1px solid black;
    
 }
-.my-custom-row {
-    margin-top: 0 !important;
-  }
 
 
+.row-for-my-row{
+    display: flex;
+    justify-content: space-between;
+}
 
 .container {
     border: 1px solid #ddd;
@@ -37,14 +38,26 @@ h3, p {
     margin-bottom: 10px;
 }
 
-
+.black-bar {
+    background-color: black;
+    height: 5px;
+    width: 30%;
+}
 
 .custom-img-size{
-    
+      margin-top: 50px;
       width: 20%;
       height: 30%;
+      border-radius: 50%;
       
-      
+}
+
+
+.button-sm{
+    min-width: 60px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 20%;
 }
 
 br{
